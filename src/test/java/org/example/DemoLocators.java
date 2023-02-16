@@ -13,8 +13,8 @@ public class DemoLocators{
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
         driver.get("https:/github.com/login");
-        driver.findElement(By.id("login_field")).sendKeys("2000030021@kluniversity.in");
-        driver.findElement(By.name("password")).sendKeys("Supriya5.");
+        driver.findElement(By.id("login_field")).sendKeys("2000030634@kluniversity.in");
+        driver.findElement(By.name("password")).sendKeys("@Faiza3103");
         //driver.findElement(By.className("header.logo"));
         driver.findElement(By.linkText("Forgot password?")).click();
 
